@@ -1,0 +1,107 @@
+/* header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #dedbdb;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: beige;
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(10, 10, 10, 0.2);
+  z-index: 1000;
+}
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: grey;
+}
+.carrito button {
+  background-color: grey;
+}
+main {
+  margin-top: 45px;
+  padding: 10px;
+  background-color: rgb(220, 217, 217);
+}
+footer {
+  background-color: beige;
+}
+.contenedor {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.grid-cont {
+  display: grid;
+  grid-template-columns: 250px 1fr; /* Columna 1 = filtros, Columna 2 = contenido */
+  grid-template-rows: auto 1fr;
+}
+.contenedor-filtros {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  padding: 1rem;
+}
+.contenedor-buscar {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 1rem;
+}
+.contenedor-tarjetas {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.tarjeta {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.estilo-filtro {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid rgb(138, 136, 136);
+  border-radius: 8px;
+}
