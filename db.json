@@ -1,0 +1,9 @@
+{
+  "productos": [
+    { "id": 1, "nombre": "Laptop", "precio": 1200, "stock": 5 },
+    { "id": 2, "nombre": "Mouse", "precio": 50, "stock": 50 },
+    { "id": 3, "nombre": "Teclado", "precio": 65, "stock": 20 },
+    { "id": 4, "nombre": "Auricular", "precio": 70, "stock": 20 },
+    { "id": 5, "nombre": "Mouse Pad", "precio": 20, "stock": 20 }
+  ]
+}

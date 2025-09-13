@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Producto 1",
+    "precio": "$100",
+    "imagen": "assets/images/prod1.jpg"
+  },
+  {
+    "nombre": "Producto 2",
+    "precio": "$200",
+    "imagen": "assets/images/prod2.jpg"
+  },
+  {
+    "nombre": "Producto 3",
+    "precio": "$300",
+    "imagen": "assets/images/no_image.jpg"
+  }
+]

@@ -91,17 +91,53 @@ footer {
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+  gap: 3rem;
 }
 .tarjeta {
   background-color: white;
+  box-sizing: border-box;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.5rem;
+  width: 250px;
+  margin: 0;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-tarjeta {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.imagen-tarjeta img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
 }
 .estilo-filtro {
   background-color: white;
   padding: 1rem;
   border: 1px solid rgb(138, 136, 136);
   border-radius: 8px;
+}
+.contenedor-infoproducto {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.nombre-producto {
+  font-weight: bold;
+  margin: 0;
+
+  margin-top: 5px;
+}
+.precio-producto {
+  margin: 0;
+  margin-top: 5px;
 }
